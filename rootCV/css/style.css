@@ -1,25 +1,35 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Karma', serif;
+    margin-top: 50px;
+
+}
+
+header{
+    height: 230px;
+    opacity: 95%;
+    background-size: 75%;
 }
 
 main {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-color: rgba(235, 202, 130,0.5);
+    background-size: cover;
+    margin: 0 29% 0 29%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+
 }
+
 header, footer {
-    max-width: 1000px;
+    max-width: 1200px;
     text-align: center;
     margin: 0 auto;
 }
 
 footer {
-    background-color: #005677;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20 pxl;
-    color: #FFFFFF;
+
+    font-size: 25px;
     font-weight: bold;
-    vertical-align: middle;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 section {
@@ -27,39 +37,87 @@ section {
     margin: 0 auto;
 }
 
-h1, h2 {
-    background-color: #C4C4C4;
-    color: #005677;
+section.banner {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(../img/BannerFlores.jpg);
+    background-size: cover;
+}
+
+
+section.presentacion {
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    text-align: justify;
+}
+
+h1, h2, footer {
+    background-color:rgba(194,150,144, 0.9);
+    color: rgb(7,52,69);
+    vertical-align: middle;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-left: 43%;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border: 4px solid;
+    color: rgba(7,52,69,0.7);
+    background-color: rgba(194,150,144, 0.6) ;
 }
 
 h2 { 
     padding-left: 10px;
+    margin-top: 20px;
+    color:snow;
+    font-size: 25px;
+    letter-spacing: 4px;
     line-height: 25px;
 }
 
 li {
-    font-size: 17px;
+    font-size: 20px;
 }
 
+dt {
+    font-size: 20px;
+    font-weight: bold;
+    clear: left;
+    float: left;
+    margin-right: 5px;
+    padding-left: 40px;
+}
+
+dd {
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: justify;
+}    
+
 #foto-de-perfil {
-    width: 20%;
-    height: 20%;
-    border-radius: 20px;
+    vertical-align: middle;
+    width: 14%;
+    border-radius: 50px;
+    border: 7px solid;
+    color: rgba(194,150,144, 1);
 }
 
 #titulo-cv {
-    font-size: 30px;
-    color: #005677;
-    letter-spacing: 4px;
+    margin: 0 auto;
 }
 
-.subtitulo {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    }
-
-.descripcionDePuesto{
+.descripcionDePuesto {
     padding-left: 125px;
 }
 
@@ -67,20 +125,3 @@ li {
     padding-left: 20px;
     vertical-align: middle;
 }
-
-dt {
-    font-size: 17px;
-    font-weight: bold;
-    ali
-    clear: left;
-    float: left;
-    margin-right: 5px;
-    padding-left: 40px;
-}
-
-
-dd {
-    font-size: 17px;
-    margin-left: 0px;
-    text-align: justify;
-}    
