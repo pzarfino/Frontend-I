@@ -1,11 +1,10 @@
 
 
+
 /* Body */
 
 body {
     font-family: 'Roboto', sans-serif;
-    max-width: max-content;
-    margin: 200px auto;
 }
 
 /* Header */
@@ -25,8 +24,8 @@ p.descuento {
 
 #heroes {
     position: fixed;
-    z-index: 3;
     background-color: #00669F;
+    
     width: 1024px;
     height: 101px;
     margin: 0px;    
@@ -76,6 +75,15 @@ img.img-fondo {
     position: absolute;
     z-index: 1;
 
+}
+
+i {
+    color: #CC2424;
+    font-size: 30px;
+    position: absolute;
+    z-index: 4;
+    padding-left: 20px;
+    padding-top: 15px;
 }
 
 img.foto-perfil {
