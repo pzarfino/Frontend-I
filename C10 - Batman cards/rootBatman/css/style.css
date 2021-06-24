@@ -1,0 +1,120 @@
+
+
+
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+#descuento-barra {
+    background-color: #1CD1B0;
+    color: #000000;
+    width: 1024px;
+    height: 38px;
+}
+
+p.descuento {
+    font-size: 15px;
+    padding: 10px 10px;
+
+}
+
+#heroes {
+    position: fixed;
+    background-color: #00669F;
+    
+    width: 1024px;
+    height: 101px;
+    margin: 0px;    
+    box-shadow: 0px 5px 1px 2px rgba(169, 171, 173, 0.5);
+}
+
+h1 {
+    font: 40px;
+    font-weight: 400;
+    padding: 30px 20px;
+    margin: 0px;
+}
+
+/* Main */
+
+main {
+    height: 833px;
+    weight 1024px;
+    padding-bottom: 50px;
+}
+
+#cards {
+    width: 960px;
+    height: 532;
+    text-align: justify;
+}
+
+section {
+    vertical-align: middle;
+    padding-top: 200px;
+    margin-left: 40px;
+}
+
+article {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 529px;
+    display: inline-block;
+    margin-right: 15px;;
+    padding-bottom: 40px;
+    box-shadow: 0px 5px 1px 2px rgba(152, 154, 156, 0.5);
+    border-radius: 10px;
+}
+
+img.img-fondo { 
+    height: 194px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+img.foto-perfil {
+    position: absolute;
+    align-content: center;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+    margin-left: 90px;
+    margin-top: 120px;
+    border-radius: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 230px;
+    text-align: center;
+}
+
+article p {
+    padding: 20px;
+}
+
+button {
+    background-color: #00669F;
+    width: 128.78px;
+    height: 48.52px;
+    color: #F3F3F3;
+    margin-left: 85px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #00669F;
+    font-size: 16px;
+    color: #FFF9F9;
+    width: 1024px;
+    height: 51px;
+    padding-top: 1px;
+    padding-left: 10px;
+}
