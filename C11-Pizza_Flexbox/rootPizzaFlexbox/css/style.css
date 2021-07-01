@@ -1,0 +1,173 @@
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+    
+/* Header */
+
+header {
+    width: 1024px;
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header article {
+    display: flex;
+    align-items: center;
+}
+
+.img-pizza {
+    width: 92px;
+    height: 80px;
+}
+
+header .img-pizza {
+    margin-left: 20px;
+}
+
+.bloque-logo {
+    display: flex;    
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.palabra-pizza {
+    color: #39B24A;
+}
+
+.palabra-amp {
+    color: #F3F3F3;
+}
+
+.palabra-front {
+    color: #FC200C;
+}
+
+.nav-ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+.li {
+    list-style-type: none;
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 13px 0 0;
+}
+
+/* Main */
+
+/* Parte izquierda del main */
+
+main {
+    width: 1024px;
+    height: 420px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+
+.centro-izq {
+    width: 490px;
+    height: 350px;
+}
+
+h1 {
+    position: absolute;
+    font-size: 24px;
+    top: 35px;
+    left: 39px;
+    color: #FC200C;
+}
+
+.palabra-comprando {
+    color: #FFFFFF;
+}
+
+#delivery-guy {
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+/* Parte derecha del main */
+
+.centro-der {
+    width: 490px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+h2 {
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: bold;
+    order: 1;
+    text-align: center;
+    margin-top: 26px;
+}
+
+h3 {
+    margin-top: 58px;
+    margin-left: 70px;
+    order: 3;
+}
+
+ol {
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+li {
+margin: 10px;
+font-size: 16px;
+font-weight: bold;
+}
+
+#falling-ingredients {
+    margin-left: 74px;
+
+}
+
+/* Footer */
+
+footer {
+    width: 1024px;
+    height: 150px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer article {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+}
+
+footer .nav-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
