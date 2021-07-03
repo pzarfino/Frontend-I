@@ -1,7 +1,6 @@
 html {
-    font-size: 36px;
+    font-size: 10px;
 }
-
 /* Body */
 
 
@@ -30,6 +29,7 @@ header {
 
 #super-heroes {
     background-color: #00669F;
+    box-shadow: 0rem 0.3rem 1rem rgba(0,0,0, 0.5);
     /* height: 4.5rem; */
     /* position: fixed; */
 }
@@ -47,27 +47,29 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* CLAVE el flex-wrap:wrap!!!! */
-
 }
 
-.fa-plus-circle {
+ .fa-plus-circle {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    right: 2rem;
     color: #00669F;
-    font-size: 4.16rem;
 }
 
 section {
-    /* margin: 1rem; */
     background-color: #F3F3F3;
     margin: 2rem;
-
-    /* poner ancho y altura y border radius */
-
-
-
+    height: 37.9rem;
+    width: 22.36rem;
+    border-radius: 1rem;
+    display: inline-block
 }
+
 article {
     display: flex;
+    flex-direction: column;
+
 }
 
 .fa-heart {
@@ -81,7 +83,7 @@ article {
 
 .foto-perfil {
     position: absolute;
-    margin: 7rem 6.30rem;
+    margin: 7.5rem 5rem;
     z-index: 1;
     border-radius: 50rem;
     width: 11rem;
@@ -89,30 +91,22 @@ article {
 }
 
 .foto-fondo {
-    position: relative;
-    z-index: 0;
-    width: 22.388rem;
-    height: 13.681rem;
+    max-width: 22.38rem;
+    height: 13.68rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 h2 {
-    padding-top: 0.5rem;
+    padding-top: 4.5rem;
     text-align: center;
-}
-
-section {
-
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
+    font-weight: 400;
 }
 
 p {
+    align-self: center;
     text-align: justify;
-    padding: 0 2rem 1rem;
+    margin: 0rem 1.5rem 1rem 1.5rem;
+    font-size: 1rem;
 }
 
 button {
@@ -123,13 +117,13 @@ button {
     width: 9.611rem;
     height: 3.167rem;
     border-radius: 0.20rem;
-    
+
 }
 /* Footer */
 
 footer {
     background-color: #00669F;
-    display: flex;
+    display: flex;    
     justify-content: space-around;
     align-items: center;
     line-height: 4.5rem;
@@ -139,12 +133,38 @@ footer {
 
 #derechos {
     display: flex;
-    color: #FFF9F9;     
-
+    color: #FFF9F9;
 }
 
 #logo-github {
-    height: 1.871rem;
-    width: 6.892rem;
+    position: relative;
+    height: 1.5rem;
+    width: 6.8rem;
+}
 
+/** Media Queries **/
+
+/* Screen */
+
+@media (min-width: 450px) {
+    footer {
+        padding-left: 28%;
+    }
+}
+
+
+/** Tablet **/
+
+@media (max-width:800px) {
+    main {
+        justify-content: center;
+    }
+}
+
+/** Smartphones **/
+
+@media (max-width:350px) {
+   main {
+    justify-content: center;
+   }
 }
