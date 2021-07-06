@@ -1,0 +1,255 @@
+* {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* Header */
+
+#barra-superior {
+  background-color: #222222;
+  color: #F3F3F3;
+  font-size: 0.625rem;
+  height: 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-left: 5.625rem;
+  padding-right: 3.125rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav {
+  font-size: 0.8125rem;
+  color: #FFFFFF;
+  gap: 1.25rem;
+}
+
+#barra-inferior {
+  background-color: #F0A83E;
+  height: 3.875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+#logo-header {
+    font-size: 1.25rem;
+    display: inline-block;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+section.banner {
+  display: flex;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: center;
+  height: 24.5rem;
+  width: 100%;
+  margin: ;
+  justify-content: flex-end;
+}
+
+#texto-banner {
+  display: flex;
+  /* justify-content: flex-end;
+  background-color: #222222; */
+}
+
+h1 {
+  display: flex
+  background-color: ;
+  font-size: 1.875rem;
+  font-weight: 300;
+  background-color: #FFFFFF;
+  /* height: 3.235rem; */
+  position: absolute;
+  border-radius: 0.3rem;
+  right: 1.5rem;
+  top: 11.5rem;
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+
+#comederos-descuento {
+  position: absolute;
+  font-size: 1rem;
+  top: 18rem;
+  right: 6.5rem;
+}
+
+button.comederos {
+  position: absolute;
+  justify-content: center;
+  color: #FFFF;
+  background-color: #F0A83E;
+  border: none;
+  height: 2.935rem;
+  width: 8.8125rem;
+  top: 21rem;
+  right: 7rem;
+}
+
+#imagen-pata {
+  margin-top: 2rem;
+}
+
+#sector-productos {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.25rem;
+}
+
+#sector-productos img {
+  height: 19.5rem;
+  weight: 16.5rem;
+  margin-top: 3rem;
+}
+
+/* Footer */
+
+footer {
+  align-items: center;
+  text-align: center;
+}
+
+
+.newsletter {
+  display: flex;
+  background-color: #F0A83E;
+  color: #FFFF;
+  height: 3.75rem;
+  margin-top: 4.5rem;
+  padding-left: 1.25rem;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+}
+
+#sobre {
+  height: 2rem;
+  width: 3.5rem;
+}
+
+.datos-contacto {
+  background-color: #3C2313;
+  color: #FFFF;
+  display: flex;
+}
+
+.logo-front2 {
+  color: #3C2313;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+.logo-catanddog2 {
+  color: #FFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+#datos-contacto {
+  display: flex;
+  flex-direction: column;
+  background-color: #3C2313;
+  height: 18rem;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+
+}
+
+.icono {
+  height: 4rem;
+  width: 4rem;
+}
+.info div {
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+
+.datos {
+  color: #8A8787;
+  font-size: 0.625rem;
+}
+
+#logo-footer {
+
+}
+
+#derechos {
+  background-color: #222222;
+  color: #FFFFFF;
+  font-size: 0.6rem;
+  height: 1.25rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/* Media */
+
+@media (max-width: 640px) {
+  #barra-superior {
+    display: none;
+  }
+  ul {
+    display: none;
+  }
+  input:checked  ~ ul {
+    display: block;
+  }
+  input {
+    display: none;
+  }
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+  li {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+  #sector-productos {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 640px) {
+  label, input {
+    display: none;
+  }
+}
