@@ -44,6 +44,18 @@ ul {
     display: inline-block;
 }
 
+.p-front-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #3C2313;
+} 
+
+.p-catdog-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+
 /* Main */
 
 main {
@@ -60,23 +72,18 @@ section.banner {
   background-position: center;
   height: 24.5rem;
   width: 100%;
-  margin: ;
   justify-content: flex-end;
 }
 
 #texto-banner {
   display: flex;
-  /* justify-content: flex-end;
-  background-color: #222222; */
 }
 
 h1 {
-  display: flex
-  background-color: ;
+  display: flex;
   font-size: 1.875rem;
   font-weight: 300;
   background-color: #FFFFFF;
-  /* height: 3.235rem; */
   position: absolute;
   border-radius: 0.3rem;
   right: 1.5rem;
@@ -115,11 +122,65 @@ button.comederos {
 
 #sector-productos img {
   height: 19.5rem;
-  weight: 16.5rem;
+  width: 16.5rem;
   margin-top: 3rem;
 }
 
+#sector-contactanos {
+  display: flex;
+  height: 16.5rem;
+  /* width: 21.25rem; */
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+#h2-contactanos {
+  color: #3C2313;
+  font-size: 1.563rem;
+  margin: 0;
+}
+
+/* #form-contactanos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0rem;
+} */
+
+.campo-contactanos {
+  display: flex;
+  background-color: #3C2313;
+  height: 2.5rem;
+  width: 21.25rem;
+  color: #FFFFFF;
+  font-size: 0.5625rem;
+  border-radius: 0.938rem;
+  border: none;
+  padding-left: 0.5rem;
+}
+
+.boton-form {
+  display: inline-block;
+  height: 2.125rem;
+  width: 6.875rem;
+  border-radius: 0.9375rem;
+  border: none;
+  color: #FFFFFF; 
+  margin-top: 0.7rem;
+  margin-left: 0.5rem;
+  font-weight: 300;
+}
+
+.resetear {
+  background-color: #8A8787;
+}
+
+.enviar {
+  background-color: #F0A83E;
+}
+
 /* Footer */
+
+/* Barra newsletter */
 
 footer {
   align-items: center;
@@ -134,9 +195,16 @@ footer {
   height: 3.75rem;
   margin-top: 4.5rem;
   padding-left: 1.25rem;
-  align-items: center;
   gap: 1rem;
   font-size: 1.25rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.newsletter article {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
 }
 
 #sobre {
@@ -144,38 +212,66 @@ footer {
   width: 3.5rem;
 }
 
+#footer-form {
+  display: flex;
+
+}
+
+#form-footer-y-boton {
+  margin-right: 2.938rem;
+}
+
+.campo-footer {
+  display: flex;  
+  align-self: center;
+  height: 2.5rem;
+  width: 16.938rem;
+  font-size: 0.563rem;
+  background-color: #FFFFFF;
+  color: #A0A0A0;
+  border-radius: 0.938rem;
+  border: none;
+  margin-right: 0.3125rem;
+}
+
+.boton-form-suscribirme {
+  display: flex;  
+  align-self: center;
+  width: 4.375rem;
+  height: 2.125rem;
+  font-size: 0.563rem;
+  background-color: #3C2313;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0.938rem;
+  justify-content: center;
+
+}
+
+/* Sector datos Petshop */
+
 .datos-contacto {
   background-color: #3C2313;
   color: #FFFF;
   display: flex;
 }
 
-.logo-front2 {
-  color: #3C2313;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 23px;
-}
-
-.logo-catanddog2 {
-  color: #FFFF;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 23px;
-}
 
 #datos-contacto {
   display: flex;
   flex-direction: column;
   background-color: #3C2313;
   height: 18rem;
-  justify-content: space-around;
+  align-content: center;
 }
 
 .info {
   display: flex;
   align-items: flex-end;
-
+  align-content: center;
+  padding-left: 3rem;
+  padding-top: 1.25rem;
+  gap: 0.5rem;
 }
 
 .icono {
@@ -184,6 +280,7 @@ footer {
 }
 .info div {
   flex-direction: column;
+  text-align: left;
 }
 
 h3 {
@@ -197,8 +294,21 @@ h3 {
   font-size: 0.625rem;
 }
 
-#logo-footer {
 
+#logo-footer {
+  display: inline-block;
+  padding-left: 40rem;
+  top: 40rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.p-front-footer {
+  color: #FFFFFF;
+} 
+
+.p-catdog-footer {
+  color: #F0A83E;
 }
 
 #derechos {
@@ -213,22 +323,30 @@ h3 {
 /* Media */
 
 @media (max-width: 640px) {
+  
   #barra-superior {
     display: none;
   }
+
+  main {
+    justify-content: center;
+  }
+
   ul {
     display: none;
   }
+
   input:checked  ~ ul {
     display: block;
   }
+
   input {
     display: none;
   }
+
   label {
     box-sizing: border-box;
     display: inline-block;
-    /* border: 1px solid black; */
     border-radius: 5px;
     width: 30px;
     height: 30px;
@@ -237,6 +355,7 @@ h3 {
     text-align: center;
     user-select: none;
   }
+
   li {
     display: block;
     background: lightgrey;
@@ -245,13 +364,56 @@ h3 {
     list-style: none;
     border-bottom: 1px solid grey;
   }
+
   #sector-productos {
     flex-direction: column;
   }
+
+  .campo-contactanos {
+    height: 2.5rem;
+    width: 18.625rem;
+  }
+
+  .newsletter {
+    height: 6.313rem;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 0;
+    justify-content: center;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .newsletter article {
+    gap: 0;
+  }
+  
+  #sobre {
+    height: 1.5rem;
+    width: 2rem;
+  }
+  
+  .campo-footer {
+    width: 14rem;
+    height: 2rem;
+  }
+
+  .boton-form-suscribirme {
+    width: 4rem;
+    height: 2rem;
+  }
+  
+  #form-footer-y-boton {
+    margin: 0;
+  }
+
+  #logo-footer {
+    padding: 0;
+  }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 641px) {
   label, input {
-    display: none;
+  display: none;
   }
 }
