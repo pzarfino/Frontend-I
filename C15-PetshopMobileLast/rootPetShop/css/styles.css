@@ -365,6 +365,21 @@ h3 {
     border-bottom: 1px solid grey;
   }
 
+
+  h1 {
+    right: 0.6rem;
+  }
+
+  #comederos-descuento {
+    right: 3.5rem
+  }
+
+  button.comederos {
+  top: 21rem;
+  right: 5rem;
+
+  }
+
   #sector-productos {
     flex-direction: column;
   }
