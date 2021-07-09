@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='./css/styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <section id="barra-descuento"> 
+            20% de descuento en todos los productos!
+        </section>
+        <section id="barra-nombre-tienda">
+            <img src="./img/OBJECTS.png" alt="Imagen computadora con toldo" id="compu-toldo">
+            Nombre Tienda
+        </section>
+        <section id="barra-contacto"> 
+            <span>Contacto</span><span>Registrarme</span><span>Ingresar</span>
+        </section>
+    </header>
+
+    <main>
+        <div id="fondo">
+            <section id="top-main">
+                <h1>Añadí tu super!</h1>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </section>
+
+            <section id=middle-main>
+                <article id="caja-izq">
+                    <p>
+                        <label for="name">Nombre</label>
+                    </p>
+                    <p>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre aquí" class="campo-corto">
+                    </p>
+                    <p>
+                        <label for="fecha">Fecha</label>   
+                    </p>
+                    <p>
+                        <input type="date" name="fecha" min="1920-01-01" max="2022-12-12">
+                    </p>
+                    <p>
+                        <textarea name="texto" id="texto" placeholder="Descripción"></textarea>
+                    </p>
+                </article>
+
+                <article id="caja-der">
+                    <p>
+                        <label for="especie">Especie</label>
+                    </p>
+                    <p>
+                        <select name="especie" id="especie">
+                            <option value="unknown">Unknown</option>
+                            <option value="opc2">Opción 2</option>
+                            <option value="opc3">Opción 3</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="foto">Agregar Foto</label>
+                    </p>
+                    <p>
+                        <input type="file" name="foto" accept=".jpg .png" id=foto>
+                    </p>
+                    <p>
+                        <label for="poderes">Poderes</label>
+                    </p>
+                        <input type="checkbox" id="volar">
+                        <label for="volar" class="check-opt">Volar</label>
+                    <br>
+                        <input type="checkbox" id="inteligencia">
+                        <label for="inteligencia" class="check-opt">Superinteligencia</label>
+                    <br>
+                        <input type="checkbox" id="laser">
+                        <label for="laser" class="check-opt">Vista de rayo láser</label>
+                    <br>
+                        <input type="checkbox" id="billetera">
+                        <label for="billetera" class="check-opt">Billetera gorda</label>
+                    </p>
+
+                    <hr>
+
+                    <p>
+                        <label for="personaje">Tipo de personaje</label>
+                    </p>
+                    <p>
+                        <label class="radio-opt">
+                        <input type="radio" name="personaje" value="hero">Héroe / Heroína
+                        </label>
+                    </p>
+                    <p>
+                        <label class="radio-opt">
+                        <input type="radio" name="personaje" value="villan">Villano / Villana
+                        </label>
+                    </p>
+                </article>
+            </section>
+
+            <section id="bottom-main">
+                <input type="submit" value="Añadir" class="boton">
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p id="derechos">Todos los derechos reservados a FRONT END 1</p>
+    </footer>   
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+/* Todo */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#barra-descuento {
+    display: flex;
+    background-color: #1CD1B0;
+    color: #000000;
+    height: 1.437rem;
+    align-items: center;
+    font-size: 0.9rem;
+    padding-left: 1.25rem;
+}
+
+#barra-nombre-tienda {
+    display: flex;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 1.85rem;
+    font-weight: 300;
+    height: 5rem;
+    align-items: center;
+    font-size: 1.875rem;
+    padding-left: 0.625rem;
+}
+
+#compu-toldo {
+    height: 4.625rem;
+    weight: 6.188rem;
+}
+
+#barra-contacto {
+    display: flex;
+    background-color: #001D2D;
+    color: #FFFFFF;
+    height: 2.5rem;
+    align-items: center;
+    justify-content:flex-end;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-right: 1.25rem;
+    gap: 1.25rem;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#fondo {
+    display: flex;
+    flex-direction: column;
+    background-color: #00669F;
+    width: 60rem;
+    height: 52rem;
+    border-radius: 3.06rem;
+    justify-content: center;
+    margin: 3rem;
+}
+
+#top-main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    /* background-color: blueviolet; */
+}
+
+#top-main h1{
+    display: flex;
+    color: #FBFFFD;
+    font-weight: 400;
+    font-size: 2.5rem;
+    justify-content: center;
+    margin: 0rem;
+}
+
+#top-main p {
+    margin-bottom: ;
+    display: flex;
+    font-size: 1.25rem;
+    color:#FFFFFF;
+    justify-content: center;
+    font-weight: 100;
+}
+
+#middle-main {
+display: flex;
+height: 36.88rem;
+justify-content: center;
+gap: 1.5rem;
+/* background-color: aquamarine; */
+}
+
+#caja-izq {
+    width: 21.44rem;
+    float: left;
+
+}
+
+#caja-der {
+    width: 21.44rem;
+    float: right;
+}
+
+label {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    padding-bottom: 1.25rem;
+}
+
+main #fondo #middle-main #caja-izq p input,
+main #fondo #middle-main #caja-der p select {
+    width: 21.44rem;
+    height: 3rem;
+    border-radius: 0.96rem;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    color: #000000;
+}
+
+#foto {
+    background-color: tomato;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 20.36rem;
+    height: 18rem;
+    border-radius: 0.96rem;
+    border: none;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.check-opt {
+    font-size: 1rem;
+    line-height: 2rem;;
+}
+
+hr {
+    color: #CCCCCC;
+}
+.radio-opt {
+    font-size: 1.25rem;
+}
+#bottom-main {
+    display: flex;
+    justify-content: center;
+    /* background-color: brown; */
+} 
+
+main div #bottom-main input {
+    width: 29rem;
+    height: 5rem;
+    background-color: #1CD1B0;
+    color:#000000;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 1.46rem;
+    border: none;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    background-color: #00669F;
+    height: 3.8125rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#derechos {
+    color: #FFF9F9;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
