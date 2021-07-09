@@ -134,7 +134,7 @@ main #fondo #middle-main #caja-der p select {
 }
 
 #foto {
-    background-color: tomato;
+    /* background-color: tomato; */
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
