@@ -23,10 +23,14 @@ ul {
   gap: 1rem;
 }
 
-.nav {
+header section nav ul {
   font-size: 0.8125rem;
   color: #FFFFFF;
   gap: 1.25rem;
+}
+
+header section nav ul li::before {
+  content: url(../img/pawprint2.png);
 }
 
 #barra-inferior {
@@ -356,18 +360,26 @@ h3 {
     user-select: none;
   }
 
-  li {
+li {
     display: block;
     background: lightgrey;
     margin: 0;
     padding: 10px;
     list-style: none;
     border-bottom: 1px solid grey;
-  }
+}
 
+.nav li::before {
+  content: url(../img/pawprint2.png);
+
+}
 
   h1 {
     right: 0.6rem;
+  }
+
+  body header section h1 li::before {
+    content: url(../img/pawprint2.png);
   }
 
   #comederos-descuento {
@@ -377,7 +389,6 @@ h3 {
   button.comederos {
   top: 21rem;
   right: 5rem;
-
   }
 
   #sector-productos {
