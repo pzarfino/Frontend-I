@@ -100,7 +100,6 @@ main {
 display: flex;
 height: 36.88rem;
 justify-content: center;
-gap: 1.5rem;
 /* background-color: aquamarine; */
 }
 
@@ -113,6 +112,7 @@ gap: 1.5rem;
 #caja-der {
     width: 21.44rem;
     float: right;
+    margin-left: 2rem;
 }
 
 label {
