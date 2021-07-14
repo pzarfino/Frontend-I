@@ -134,9 +134,11 @@ main #fondo #middle-main #caja-der p select {
 }
 
 #foto {
-    /* background-color: tomato; */
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 textarea {
@@ -144,7 +146,7 @@ textarea {
     height: 18rem;
     border-radius: 0.96rem;
     border: none;
-    padding-top: 0.5rem;
+    padding-top: rem;
     padding-left: 0.5rem;
     font-size: 1rem;
 }
@@ -177,6 +179,16 @@ main div #bottom-main input {
     border: none;
 }
 
+input[type=file]::-webkit-file-upload-button {
+    background-color: #d1cfcf;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: none;
+    color: #000000;
+}
+
 
 /* Footer */
 
@@ -192,7 +204,6 @@ footer {
     color: #FFF9F9;
     font-weight: 300;
 }
-
 
 
 
